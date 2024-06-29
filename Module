@@ -1,0 +1,8 @@
+local module2 = require(game.Players.LocalPlayer.Character:FindFirstChildWhichIsA("Tool").Setting)
+module2.Recoil=0
+module2.Auto=true
+module2.FireRate=0.05
+module2.LimitedAmmoEnabled=false
+module2.AmmoPerMag=100
+module2.ReloadTime=0
+module2.AutoReload=true
